@@ -7,7 +7,28 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
+        appBar: appBar(),
+        body: Column(
+          children: [
+            Container(
+              margin: EdgeInsets.only(top: 40, left: 20, right: 20),
+              decoration: BoxDecoration(boxShadow: [
+                BoxShadow(
+                    color: Color(0xff1D1617).withOpacity(0.11),
+                    blurRadius: 40,
+                    spreadRadius: 0.0)
+              ]),
+              child: TextField(
+                decoration:
+                    InputDecoration(filled: true, fillColor: Colors.white),
+              ),
+            )
+          ],
+        ));
+  }
+
+  AppBar appBar() {
+    return AppBar(
       title: Text(
         'Breakfast',
         style: TextStyle(
@@ -40,6 +61,6 @@ class HomePage extends StatelessWidget {
               borderRadius: BorderRadius.circular(10)),
         ),
       ],
-    ));
+    );
   }
 }

@@ -242,10 +242,10 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2024-11-18T21:58:19.429335Z",
+  "generated": "2024-11-19T22:42:53.732700Z",
   "generator": "pub",
-  "generatorVersion": "3.5.3",
+  "generatorVersion": "3.5.4",
   "flutterRoot": "file:///C:/Users/gifta/dev/flutter",
-  "flutterVersion": "3.24.3",
+  "flutterVersion": "3.24.5",
   "pubCache": "file:///C:/Users/gifta/AppData/Local/Pub/Cache"
 }

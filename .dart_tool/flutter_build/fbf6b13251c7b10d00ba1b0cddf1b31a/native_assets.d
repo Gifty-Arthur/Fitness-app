@@ -1,0 +1,1 @@
+ C:\\Users\\gifta\\fitness\\.dart_tool\\flutter_build\\fbf6b13251c7b10d00ba1b0cddf1b31a\\native_assets.yaml: 
