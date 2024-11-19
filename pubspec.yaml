@@ -63,6 +63,8 @@ flutter:
   assets:
       - assets/icons/Left.svg
       - assets/icons/dot.svg
+      - assets/icons/Search.svg
+      - assets/icons/Filter.svg
       
 
   # An image asset can refer to one or more resolution-specific "variants", see

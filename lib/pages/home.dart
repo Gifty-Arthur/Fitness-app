@@ -19,8 +19,18 @@ class HomePage extends StatelessWidget {
                     spreadRadius: 0.0)
               ]),
               child: TextField(
-                decoration:
-                    InputDecoration(filled: true, fillColor: Colors.white),
+                decoration: InputDecoration(
+                    filled: true,
+                    fillColor: Colors.white,
+                    contentPadding: EdgeInsets.all(12),
+                    prefixIcon: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: SvgPicture.asset('assets/icons/Search.svg'),
+                    ),
+                    suffixIcon: SvgPicture.asset('assets/icons/Filter.svg'),
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15),
+                        borderSide: BorderSide.none)),
               ),
             )
           ],
