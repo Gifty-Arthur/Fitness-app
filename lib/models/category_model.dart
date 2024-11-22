@@ -18,12 +18,12 @@ class CategoryModel {
         iconPath: 'assets/icons/plate.svg',
         boxColor: Color(0xff92A3FD)));
     categories.add(CategoryModel(
-        name: 'Salad',
-        iconPath: 'assets/icons/plate.svg',
+        name: 'Cake',
+        iconPath: 'assets/icons/pancakes.svg',
         boxColor: Color(0xff92A3FD)));
     categories.add(CategoryModel(
-        name: 'Salad',
-        iconPath: 'assets/icons/plate.svg',
+        name: 'Pie',
+        iconPath: 'assets/icons/pie.svg',
         boxColor: Color(0xff92A3FD)));
 
     return categories;
